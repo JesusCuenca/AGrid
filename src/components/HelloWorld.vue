@@ -1,30 +1,30 @@
 <template>
   <a-container>
-      <a-row>
-        <a-col>La columna</a-col>
-        <a-col>La columna</a-col>
-        <a-col>La columna</a-col>
-        <a-col>La columna</a-col>
-      </a-row>
-      <a-row>
-        <a-col>Otra columna</a-col>
-        <a-col>Otra columna</a-col>
-      </a-row>
+    <a-row>
+      <a-col>La columna</a-col>
+      <a-col>La columna</a-col>
+      <a-col>La columna</a-col>
+      <a-col>La columna</a-col>
+    </a-row>
+    <a-row>
+      <a-col>Otra columna</a-col>
+      <a-col>Otra columna</a-col>
+    </a-row>
   </a-container>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import AContainer from './AGrid/AContainer'
-import ARow from './AGrid/ARow'
-import ACol from './AGrid/ACol'
+import AContainer from "./AGrid/AContainer";
+import ARow from "./AGrid/ARow";
+import ACol from "./AGrid/ACol";
 
 export default Vue.extend({
   name: "HelloWorld",
   components: {
     AContainer,
     ARow,
-    ACol,
+    ACol
   },
   props: {
     msg: String

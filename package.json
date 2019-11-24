@@ -1,7 +1,6 @@
 {
   "name": "@hzimm/a-grid",
   "version": "0.1.0",
-  "private": true,
   "main": "./dist/@hzimm/a-grid.common.js",
   "files": [
     "dist/*",

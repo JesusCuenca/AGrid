@@ -1,7 +1,7 @@
 // Types
 import Vue, { VNode } from "vue";
 
-export default function VGrid(name: string) {
+export default function AGrid(name: string) {
   /* @vue/component */
   return Vue.extend({
     name: `v-${name}`,
